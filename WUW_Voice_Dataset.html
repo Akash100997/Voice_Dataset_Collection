@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <title>WUW_Voice Dataset Collection</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <img src="images/JI.png" alt="Jasmin Infotech Logo" width="50">
+        <h1>WUW - Voice Dataset Collection</h1>
+        <p>Thank you for helping out! Just follow the directions below to submit snippets of your voice. These will be used in WUW Detection System project as a dataset for training the model.</p>
+        <p>Just follow these steps! Please try to make each recording with no background noise, if possible.</p>
+        <p>1. Press the <b>Record</b> button and say the word <b>"Jasmin"</b> within one second.<b>(Note: Accept any pop-ups that ask you to use your computers microphone).</b></p>
+        <p>2. Play back or check each recording to make sure that the word is easily understood (and not truncated).</p>
+        <p>3. For each word recording that you are happy with, click the <b>Download</b> link next to it.<b> (Note : Rename the file with your name.)</b></p>
+        <p>4. Save it in the sharing path of <b>\\vigneshj\Sharing\To_Muthu\Dataset</b></p>
+        <p>5. Repeat the step with different modulations for <b>"Jasmin"</b> word.</p>
+        <br>
+        <button class="recordButton" id="Jasmin" style="height:50px; margin-left:20px;">Record</button>
+        <div id="formats">Format: start recording to see sample rate</div>
+        <p><strong>Recordings:</strong></p>
+        <ol id="JasminList"></ol>
+         <!-- Scripts to run. Make sure these are listed at the end of HTML -->
+        <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+        <script src="application.js"></script>
+    </body>
+
+</html>
